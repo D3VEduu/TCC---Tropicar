@@ -1,0 +1,52 @@
+
+$enable-responsive-font-sizes:  true !important;
+$enable-gradients:  true !important;
+
+//=====CORES COMPLEMENTARES=====
+$azul-01: #1430DE;
+$azul-02: #156AE8;
+$azul-03: #1D95D1;
+$azul-c1: #15D9E8;
+$azul-c2: #14DEB4;
+
+//=====SOMBRAS=====
+$azul-som1: #125B80;
+$azul-som2: #092D40;
+
+//=====CORES COMPOSTAS=====
+$bg-menu: #181818;
+$aqua-cc: #24FFD1;
+$red-cc: #CC081C;
+$salmao-cc: #FF7663;
+
+//====TRIADE=====
+$trirosa: #FF3D51;
+$triamarelo: #CCC508;
+$trimostarda: #B3AD10;
+
+$theme-colors:(
+    //=====CORES COMPLEMENTARES=====
+    "azul-01": $azul-01,
+    "azul-02": $azul-02,
+    "azul-03": $azul-03,
+    "azul-c1": $azul-c1,
+    "azul-c2": $azul-c2,
+    //=====SOMBRAS=====
+    "azul-som1": $azul-som1,
+    "azul-som2": $azul-som2,
+    //=====CORES COMPOSTAS=====
+    "bg-menu": $bg-menu,
+    "aqua-cc": $aqua-cc,
+    "red-cc": $red-cc,
+    "salmao-cc": $salmao-cc,
+    //====TRIADE=====
+    "trirosa": $trirosa,
+    "triamarelo": $triamarelo,
+    "trimostarda": $trimostarda
+
+    
+);
+
+
+//IMPORTANTO O BOOTSTRAP
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
